@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-scale, initial-scale=1.0">
+        <title>Tsvetalin's portfolio</title>
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="./assets/css/main.css">
+
+        <!-- Swiper -->
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Permanent+Marker&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,900;1,400;1,500;1,600;1,700;1,900&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        
+        <!-- Icons -->
+        <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+
+        <!-- Bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    </head>
+    <body>
+        <header>
+            <nav class="navbar">
+                <a href="#" class="nav-branding"><img src="./assets/images/logo.svg"></a>
+
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">Who I am?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#projects" class="nav-link">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#get-in-touch" class="nav-link">Get in touch</a>
+                    </li>
+                    <li class="nav-item button">
+                        <a href="./assets/documents/CV_Tsvetalin_Hristov-3.pdf" class=" btn-download bouncy" download="">Get my CV</a>
+                    </li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <section class="banner" id="home">
+                <div class="container">
+                    <div class="banner-image">
+                        <img src="./assets/images/Snimka.jpg" alt="Banner image">
+                    </div>
+                    <div class="banner-text">
+                        <h1>Hello, I'm <span class="name">Tsvetalin Hristov</span></h1>
+                        <div class="h3-s">
+                            <h3><span class="type">Front-end</span> and <span class="type">Swift</span> developer</h3>
+                        </div>
+                        <div class="btn-continue button">
+                          <a>Find out more</a>
+                        </div>
+                    </div>
+            </section>
+
+            <section class="about_me" id="about">
+                <h2>Who I am?</h2>
+                <div class="container">
+                    <div class="biography">
+                        <div class="tabs">
+                            <a class="tab tab-1 active" data-tab="1">
+                                About me
+                            </a>
+                            <a class="tab tab-2" data-tab="2">
+                                Education
+                            </a>
+                            <a class="tab tab-3" data-tab="3">
+                                Certificates
+                            </a>
+                        </div>
+
+                        <div class="pages">
+                            <div class="content visible" data-tab="1">
+                                <div class="content-text-1">
+                                    <p>
+                                        My name is Tsvetalin Hristov and I am a dedicated and hardworking student. I am always open to new challenges and opportunities to learn and grow. I am particularly interested in front-end programming development, and have experience with programming languages such as C++ and Swift. I am passionate about app development and have a strong desire to continue learning and expanding my skills in this field. I am excited to explore new opportunities and take on new challenges in order to continue developing my skills and knowledge in the field of programming and app development.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="content" data-tab="2">
+                                <h4>
+                                    Education
+                                </h4>
+                                <div class="content-text-2">
+
+                                        <label for="educ-1">
+                                            <input id="educ-1" type="checkbox">
+                                            <div class="title">
+                                                <div class="head">
+                                                    <h3>New Bulgarian University</h3>
+                                                </div>
+                                            </div>
+                                            <div class="information">
+                                                <h4><span class="specs">type:</span> Bachelor's in Informatic</h4>
+                                                <h4><span class="specs">years:</span> 2021-now</h4>
+                                                <p>
+                                                    I am currently pursuing a Bachelor's degree in Informatics at the New Bulgarian University. I am in my second year of study and I am currently in the process of learning the basics of computer science and programming. I am fully dedicated to my studies and eager to learn as much as possible in this field.
+                                                </p>
+                                            </div>
+                                        </label>
+                                        <label for="educ-2">
+                                            <input id="educ-2" type="checkbox">
+                                            <div class="title">
+                                                <div class="head">
+                                                    <h3>High school of Mathematic and Science "Nancho Popovich"</h3>
+                                                </div>
+                                            </div>
+                                            <div class="information">
+                                                <h4><span class="specs">type:</span> Secondary education</h4>
+                                                <h4><span class="specs">years:</span> 2016-2021</h4>
+                                                <p>
+                                                    I am proud to say that I have recently graduated from the High School of Mathematics and Science "Nancho Popovich." During my time at this prestigious institution, I have been studying intensivly Mathematics, Physics and English. I believe that my hard work and dedication have prepared me well for my future academic and professional pursuits
+                                                </p>
+                                            </div>
+                                        </label>
+                                </div>
+                            </div>
+
+                            <div class="content" data-tab="3">
+                                <h3>Certificates</h3>
+                                <div class="certificate">
+                                    <div class="heading">
+                                        <h3>
+                                            Fundamentals of Programming with C++
+                                        </h3>
+                                        <a class="bttn popup-btn" data-index="1">View Certificate</a>
+                                    </div>
+                                    <div class="popup-wrap" data-index="1">
+                                        <div class="popup-box" data-index="1">
+                                            <img  src="./assets/images/certificate-1.jpeg" alt="Certificate">
+                                            <a class="close-btn popup-close">x</a>
+                                        </div>
+                                      </div>
+                                </div>
+                                
+                                <div class="certificate">
+                                    <div class="heading">
+                                        <h3>
+                                            Algorithms and Modeling with C++, in group "C"
+                                        </h3>
+                                        <a class="bttn popup-btn" data-index="2">View Certificate</a>
+                                    </div>
+                                    <div class="popup-wrap" data-index="2">
+                                        <div class="popup-box" data-index="2">
+                                            <img src="./assets/images/certificate-2.jpeg" alt="Certificate">
+                                            <a class="close-btn popup-close">x</a>
+                                        </div>
+                                      </div>
+                                </div>
+
+                                <div class="certificate">
+                                    <div class="heading">
+                                        <h3>
+                                            Objected-oriented programming with C++
+                                        </h3>
+                                        <a class="bttn popup-btn" data-index="3">View Certificate</a>
+                                    </div>
+                                    <div class="popup-wrap" data-index="3">
+                                        <div class="popup-box" data-index="3">
+                                            <img src="./assets/images/certificate-3.jpeg" alt="Certificate">
+                                            <a class="close-btn popup-close">x</a>
+                                        </div>
+                                      </div>
+                                </div>
+
+                                <div class="certificate">
+                                    <div class="heading">
+                                        <h3>
+                                            Base of Data with MySQL
+                                        </h3>
+                                        <a class="bttn popup-btn" data-index="4">View Certificate</a>
+                                    </div>
+                                    <div class="popup-wrap" data-index="4">
+                                        <div class="popup-box " data-index="4">
+                                            <img src="./assets/images/certificate-4.jpeg" alt="Certificate">
+                                            <a class="close-btn popup-close">x</a>
+                                        </div>
+                                      </div>
+                                </div>
+
+                                <div class="certificate">
+                                    <div class="heading">
+                                        <h3>
+                                            Mrazq oriz s pile
+                                        </h3>
+                                        <a class="bttn popup-btn" data-index="5">View Certificate</a>
+                                    </div>
+                                    <div class="popup-wrap" data-index="5">
+                                        <div class="popup-box" data-index="5">
+                                            <img src="./assets/images/certificate-5.png" alt="Certificate">
+                                            <a class="close-btn popup-close">x</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pictureProfile">
+                        <img src="./assets/images/myProfile.png"  alt="Profile Picture">
+                        <div class="background"></div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="projects" id="projects">
+                <h2>Projects</h2>
+                <div class="container">
+                    <div class="swiper projects-slider">
+                        <div class="swiper-wrapper">
+    
+                            <div class="swiper-slide project">
+                                <div class="image">
+                                    <img src="./assets/images/project-1.jpeg" alt="Project 1">
+                                </div>
+                                <div class="content">
+                                    <h3>Blog title goes here</h3>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nisi est sit amet facilisis magna etiam tempor orci eu. Eu facilisis sed odio morbi quis commodo odio.
+                                    </p>
+                                   <a href="#" class="bttn">Find out more</a>
+                                </div>
+                            </div>
+    
+                            <div class="swiper-slide  project">
+                                <div class="image">
+                                    <img src="./assets/images/project-1.jpeg" alt="Project 1">
+                                </div>
+                                <div class="content">
+                                    <h3>Blog title goes here</h3>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nisi est sit amet facilisis magna etiam tempor orci eu. Eu facilisis sed odio morbi quis commodo odio.
+                                    </p>
+                                   <a href="#" class="bttn">Find out more</a>
+                                </div>
+                            </div>
+    
+                            <div class="swiper-slide  project">
+                                <div class="image">
+                                    <img src="./assets/images/project-2.webp" alt="Project 1">
+                                </div>
+                                <div class="content">
+                                    <h3>Blog title goes here</h3>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nisi est sit amet facilisis magna etiam tempor orci eu. Eu facilisis sed odio morbi quis commodo odio.
+                                    </p>
+                                   <a href="#" class="bttn">Find out more</a>
+                                </div>
+                            </div>
+    
+                            <div class="swiper-slide project">
+                                <div class="image">
+                                    <img src="./assets/images/project-2.webp" alt="Project 1">
+                                </div>
+                                <div class="content">
+                                    <h3>Blog title goes here</h3>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nisi est sit amet facilisis magna etiam tempor orci eu. Eu facilisis sed odio morbi quis commodo odio.
+                                    </p>
+                                   <a href="#" class="bttn">Find out more</a>
+                                </div>
+                            </div>
+    
+                            <div class="swiper-slide  project">
+                                <div class="image">
+                                    <img src="./assets/images/project-3.jpeg" alt="Project 1">
+                                </div>
+                                <div class="content">
+                                    <h3>Blog title goes here</h3>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nisi est sit amet facilisis magna etiam tempor orci eu. Eu facilisis sed odio morbi quis commodo odio.
+                                    </p>
+                                   <a href="#" class="bttn">Find out more</a>
+                                </div>
+                            </div>
+    
+                            <div class="swiper-slide  project">
+                                <div class="image">
+                                    <img src="./assets/images/project-3.jpeg" alt="Project 1">
+                                </div>
+                                <div class="content">
+                                    <h3>Blog title goes here</h3>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nisi est sit amet facilisis magna etiam tempor orci eu. Eu facilisis sed odio morbi quis commodo odio.
+                                    </p>
+                                   <a href="#" class="bttn">Find out more</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="get-in-touch" id="get-in-touch">
+                <h2 class="tittle">Get in touch</h2>
+                <div class="container">
+                <form class="contact-form row" onsubmit="validate();">
+                      <input id="name" class="input-text js-input name" type="text" placeholder=Name >
+                      <input id="email" class="input-text js-input email" type="email" placeholder="E-mail">
+                      <textarea id="message" class="input-text js-input message" type="text"  placeholder="Message"></textarea>
+                    <input class="submit-btn" type="submit" value="Send">
+                </form>
+                </div>
+             </section>
+        </main>
+        <footer class="py-3 my-4">
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+              <li class="nav-item"><a href="#home" class="nav-link px-2 text-muted">Home</a></li>
+              <li class="nav-item"><a href="#about" class="nav-link px-2 text-muted">Who I am?</a></li>
+              <li class="nav-item"><a href="#projects" class="nav-link px-2 text-muted">Projects</a></li>
+              <li class="nav-item"><a href="#get-in-touch" class="nav-link px-2 text-muted">Get in touch</a></li>
+            </ul>
+            <p class="text-center text-muted">&copy; 2022, Tsvetalin Hristov</p>
+          </footer>
+
+        <script src="./assets/js/main.js"></script>
+        <script type="module">
+            import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.esm.browser.min.js'
+          
+            const swiper = new Swiper('.projects-slider', {
+              slidesPerView: 1,
+              cursor: 'grab',
+              spaceBetween: 5,
+              loop: true,
+             autoplay: {
+                    delay: 1000,
+                    disableOnInteraction: false,
+            },
+              breakpoints: {
+                640: {
+                  slidesPerView: 2,
+                  spaceBetween: 10,
+                },
+                768: {
+                  slidesPerView: 3,
+                  spaceBetween: 20,
+                },
+                1024: {
+                  slidesPerView: 4,
+                  spaceBetween: 30,
+                },
+              }
+            });
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    </body>
+</html>
